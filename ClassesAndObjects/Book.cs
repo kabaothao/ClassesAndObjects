@@ -15,7 +15,7 @@ namespace ClassesAndObjects
         public string author;
         public int pages;
 
-        //basically heses are attributes of a book. so this is a specification template.
+        //basically theses are attributes of a book. so this is a specification template.
         //So now I can ceate a book inside of my program. Go back to your Program.cs file.
 
         //Next we can create something called an object, which is going to be a actual book inside of our program. Now go back to your Program.cs file.
