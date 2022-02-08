@@ -12,13 +12,13 @@ namespace ClassesAndObjects // Note: actual namespace depends on the project nam
             //So if I wanted to create an present an actual book inside of my program, since I created that class and I define what a book is. I basically defined the book datatype, i can actually do that.
             //And I can create something called an object. And an object is an instance of a class. 
             //So when we created the class we created the template for what a book is.
-            //When we create an object, we're creating an actualy physical book inside of our program.
+            //When we create an object, we're creating an actual physical book inside of our program.
             //When I'm creating an object, the book would have an actual title, actual number of pages, and an actual author. 
 
             //example
             //specify the book data type.
             //this is how we can create what's called a book object. This is essentially an instance of a book. so this is like a physical book inside of our program. 
-            Book book1 = new Book(); //create an object whch is aninstance of the book class.
+            Book book1 = new Book(); //create an object whch is an instance of the book class.
             book1.title = "Harry Potter"; //now i was able to define all of infomation about this book. 
             book1.author = "JK Rowling";
             book1.pages = 400;
