@@ -37,6 +37,16 @@ namespace ClassesAndObjects // Note: actual namespace depends on the project nam
             Console.WriteLine(book2.author);
             Console.WriteLine(book2.pages);
 
+            //example
+            Book book3 = new Book();
+            book3.title = "The Spirit Catches You and You Fall Down";
+            book3.author = "Anne Fadiman";
+            book3.pages = 550;
+
+            Console.WriteLine(book3.title);
+            Console.WriteLine(book3.author);
+            Console.WriteLine(book3.pages);
+
         }
     }
 }
@@ -45,6 +55,6 @@ namespace ClassesAndObjects // Note: actual namespace depends on the project nam
  Topic: What are Classes and Objects?
 When we want to create a data type we would create a class. 
 A class is basically just a speciication for a new data type. 
-So I could create a class for a phone or I could create a class for like a water bottle, or I could create a class for a water bottle, or I could create a class for a keyboard etc.
+So I could create a class for a phone or I could create a class for like a water bottle, or I could create a class for a keyboard etc.
 Then I can represent all those different things inside my programs. So classes are basically use to model real world entities inside of our program.
  */
